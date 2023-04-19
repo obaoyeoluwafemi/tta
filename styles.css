@@ -1,0 +1,185 @@
+header {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+nav.top-nav {
+    float: right;
+}
+
+
+nav.top-nav li {
+    float: left;
+    margin: 5px;
+}
+
+
+nav.top-nav li a {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+nav.top-nav li a:hover {
+    background-color: rgba(153, 153, 153, 0.13);
+}
+
+
+.yellow-button {
+    background-color: #E5BE57;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.white-button {
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.link {
+    color: #E5BE57;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+
+.section_1 {
+    background-image: url(./images/carosel.png);
+    height: 696px;
+    display: flex;
+    align-items: center;
+}
+
+.section_1-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    color: white;
+    width: 968px;
+}
+
+.transparent-card {
+    width: 958px;
+    height: 269px;
+    background: rgba(16, 13, 4, 0.26);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    margin: auto;
+}
+
+.section_2 {
+    height: 250px;
+}
+
+
+.section_2-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.section_3 {
+
+    height: 696px;
+
+    left: 55px;
+
+    text-align: justify;
+}
+
+.image-left {
+    background-image: url(./images/pastor_b.png);
+    width: 500px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 500px;
+    float: left;
+}
+
+.section-3-cards {
+    height: 100px;
+    padding-right: 5px;
+
+
+}
+
+
+.section_4 {
+    background-color: #fafafa;
+    height: 500px;
+
+}
+
+.section-4a {
+    float: left;
+}
+
+.section_4-cards {
+    padding-right: 15px;
+    float: left;
+
+}
+
+
+.section_5 {
+    background-image: url(./images/AOP_1147.png);
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.trans-5 {
+    position: absolute;
+    background: linear-gradient(135deg, #253464 14.42%, #394777 59.03%);
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+}
+
+
+.section-5-cards {
+    margin: 0 auto;
+    z-index: 1;
+}
+
+
+.section_6 {
+    height: 500px;
+}
+
+
+.section_6a {
+    float: right;
+}
+
+.section_6-cards {
+    height: 100px;
+
+}
